@@ -1,12 +1,13 @@
 import React from "react";
 import TypingEffect from "./Typing";
+import { IoArrowDownCircleSharp } from "react-icons/io5";
 
 const Main = () => {
   return (
     <>
       <div className="w-full h-screen text-center">
         <div className="max-w-[1260px] w-full h-full mx-auto p-2 flex justify-center items-center">
-          <div className="">
+          <div>
             <p className="text-[#7ae2fc] text-base p-2 tracking-widest font-semibold uppercase">
               LET'S EXPLORE NEW HORIZONS TOGETHER.
             </p>
@@ -25,6 +26,7 @@ const Main = () => {
             </div>
           </div>
         </div>
+        <div className="mt-[-5%] flex justify-center"></div>
       </div>
     </>
   );

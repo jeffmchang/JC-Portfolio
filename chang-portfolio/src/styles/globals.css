@@ -43,4 +43,12 @@
   .code {
     font-family: "Courier Prime", monospace;
   }
+
+  .container {
+    @apply mx-auto px-4 w-full h-screen;
+  }
+
+  .content {
+    @apply max-w-[1260px] w-full h-full mx-auto p-2 flex justify-center items-center;
+  }
 }
