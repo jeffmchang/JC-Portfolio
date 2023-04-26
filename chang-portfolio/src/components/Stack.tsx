@@ -16,19 +16,19 @@ export const Stack = () => {
     <div>
       <div className="container">
         <div>
-          <p className="text-center text-7xl font-bold py-10 pt-[120px] text-black">
+          <p className="text-center text-7xl font-bold py-10 pt-[120px] text-white">
             Tech Stack
           </p>
           <div className="flex justify-center gap-3">
-            <SiReact size={70} color="black" />
-            <FaPython size={70} color="black" />
-            <SiJavascript size={70} color="black" />
-            <SiTailwindcss size={70} color="black" />
-            <SiDjango size={70} color="black" />
-            <SiRedux size={70} color="black" />
-            <SiPostgresql size={70} color="black" />
-            <SiMongodb size={70} color="black" />
-            <TbBrandAmongUs size={70} color="black" />
+            <SiReact size={70} color="white" />
+            <FaPython size={70} color="white" />
+            <SiJavascript size={70} color="white" />
+            <SiTailwindcss size={70} color="white" />
+            <SiDjango size={70} color="white" />
+            <SiRedux size={70} color="white" />
+            <SiPostgresql size={70} color="white" />
+            <SiMongodb size={70} color="white" />
+            <TbBrandAmongUs size={70} color="white" />
           </div>
         </div>
       </div>

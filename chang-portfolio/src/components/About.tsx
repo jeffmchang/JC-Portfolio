@@ -4,7 +4,7 @@ import img from "/./public/newAssets/prof.png";
 
 export const About = () => {
   return (
-    <div className="w-full h-[70%] bg-white">
+    <div className="w-full h-[70%] bg-white shadow-2xl">
       <div className="max-w-[1260px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="flex justify-center gap-10">
           <div>

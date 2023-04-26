@@ -8,6 +8,7 @@ import { About } from "@/components/About";
 import { ArrowDown } from "@/components/ArrowDown";
 import { Stack } from "@/components/Stack";
 import { Projects } from "@/components/Projects";
+import { Macbook } from "@/components/Macbook";
 
 export default function Home() {
   return (
@@ -32,12 +33,12 @@ export default function Home() {
         <ParallaxLayer offset={1} speed={0.05}>
           <About />
         </ParallaxLayer>
-        <ParallaxLayer offset={1.85} speed={0.15} className="bg-white">
-          <Stack />
+        <ParallaxLayer offset={1.85} speed={0.15}>
+          <Macbook />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.15}>
+        {/* <ParallaxLayer offset={2} speed={0.15}>
           <Projects />
-        </ParallaxLayer>
+        </ParallaxLayer> */}
       </Parallax>
     </div>
   );
