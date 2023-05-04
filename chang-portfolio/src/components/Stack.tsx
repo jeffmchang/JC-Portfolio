@@ -13,24 +13,35 @@ import { TbBrandAmongUs } from "react-icons/tb";
 
 export const Stack = () => {
   return (
-    <div>
-      <div className="container">
-        <div>
-          <p className="text-center text-7xl font-bold py-10 pt-[120px] text-white">
-            Tech Stack
+    <div className="w-full h-full bg-white">
+      <div className="max-w-[1260px] w-full h-full mx-auto p-2">
+        <div className="max-w-[600px]">
+          <h5 className="text-black">Languages that I utlize</h5>
+          <h1 className="text-black">Diverse tech stack.</h1>
+          <p className="text-black">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            odio voluptatum magni voluptatibus, optio id atque tempore veniam,
+            quam saepe quo nisi ea officiis cum natus perspiciatis dignissimos
+            corrupti minus? Quasi magni aspernatur labore, accusantium
+            repudiandae esse, eos rerum expedita vero ullam dolor beatae a quia
+            incidunt commodi? Quasi minima laboriosam aperiam libero. Soluta
+            voluptates odio fugit possimus temporibus eos. Nesciunt eveniet
+            harum facere quam dolore illum officia nemo eum ducimus architecto
+            adipisci eos tempora quia iure neque laudantium ipsa similique enim
+            reiciendis nihil iusto, vitae eaque. Distinctio, tempore rerum?
           </p>
-          <div className="flex justify-center gap-3">
-            <SiReact size={70} color="white" />
-            <FaPython size={70} color="white" />
-            <SiJavascript size={70} color="white" />
-            <SiTailwindcss size={70} color="white" />
-            <SiDjango size={70} color="white" />
-            <SiRedux size={70} color="white" />
-            <SiPostgresql size={70} color="white" />
-            <SiMongodb size={70} color="white" />
-            <TbBrandAmongUs size={70} color="white" />
-          </div>
         </div>
+        {/* <div className="flex justify-center gap-3">
+          <SiReact size={70} color="black" />
+          <FaPython size={70} color="black" />
+          <SiJavascript size={70} color="black" />
+          <SiTailwindcss size={70} color="black" />
+          <SiDjango size={70} color="black" />
+          <SiRedux size={70} color="black" />
+          <SiPostgresql size={70} color="black" />
+          <SiMongodb size={70} color="black" />
+          <TbBrandAmongUs size={70} color="black" />
+        </div> */}
       </div>
     </div>
   );

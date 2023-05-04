@@ -24,25 +24,25 @@ const Navbar = () => {
           <ul className="hidden md:flex mr-2 items-center">
             <Link href="/">
               <li className="code mr-6 font-semibold text-[#c5f4ff] text-base hover:text-[#34daff]">
-                <span className="text-[#0a8754]">00.</span> about
+                <span className="text-[#0a8754]">01.</span> about
               </li>
             </Link>
             <Link href="/about">
               <li className="code mr-6 font-semibold text-[#c5f4ff] text-base hover:text-[#34daff]">
-                <span className="text-[#0a8754]">01.</span> stack
+                <span className="text-[#0a8754]">02.</span> projects
               </li>
             </Link>
             <Link href="/projects">
               <li className="code mr-6 font-semibold text-[#c5f4ff] text-base hover:text-[#34daff]">
-                <span className="text-[#0a8754]">02.</span> projects
+                <span className="text-[#0a8754]">03.</span>experience
               </li>
             </Link>
             <Link href="/contact">
               <li className="code mr-6 font-semibold text-[#white] text-base hover:text-[#34daff]">
-                <span className="text-[#0a8754]">03.</span> contact
+                <span className="text-[#0a8754]">04.</span> contact
               </li>
             </Link>
-            <button className="code text-white font-bold rounded px-3 py-2 bg-[#1e7774] hover:bg-[#175c5a] hover:text-[#52b6d7] shadow-3xl">
+            <button className="code text-white font-bold rounded px-3 py-2 bg-[#1e7774] hover:bg-[#175c5a] hover:text-[#8d8d8d] shadow-3xl">
               resume
             </button>
           </ul>

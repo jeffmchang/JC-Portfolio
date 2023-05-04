@@ -20,13 +20,15 @@ const Main = () => {
             </div>
             <div className="max-w-[600px]">
               <p className="text-xl p-3 text-[#7ae2fc] font-semibold">
-                An aspiring full-stack developer seeking opportunities to make
-                an impact on the world through technology.
+                A full-stack developer seeking opportunities to make an impact
+                on the world through technology.
               </p>
             </div>
           </div>
         </div>
-        <div className="mt-[-5%] flex justify-center"></div>
+        <div className="mt-[-150px] flex justify-center">
+          <IoArrowDownCircleSharp className="animate-bounce" size={40} />
+        </div>
       </div>
     </>
   );

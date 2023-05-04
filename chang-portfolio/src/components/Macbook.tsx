@@ -1,26 +1,27 @@
 import React from "react";
 import Image from "next/image";
 import img from "/./public/newAssets/macbook.png";
+import { Projects } from "./Projects";
 
 export const Macbook = () => {
   return (
-    <div className="w-full h-[70%] bg-white shadow-2xl">
-      <div className="max-w-[1260px] w-full h-full mx-auto p-2 flex justify-center items-center">
+    <div className="w-full h-full bg-white pt-[150px]">
+      <div className="max-w-[1260px] w-full h-full mx-auto p-2">
         <div className="flex justify-center gap-10">
           <Image
             src={img}
             alt="/"
-            height={950}
-            width={950}
-            className="ml-[-20%]"
+            height={650}
+            width={650}
+            className="ml-[-5%] hidden lg:block"
           />
-          <div className="flex items-center mr-[-20%] mb-[5%]">
+          <div className="flex items-center mb-[5%]">
             <div>
-              <h4 className=" text-black py-2">
-                Fully built single-page applications
-              </h4>
-              <h1 className="text-black pb-8">Beautiful and responsive.</h1>
-              <p className="text-black">
+              <h5 className=" text-black py-2">
+                Showcasing skills and ability
+              </h5>
+              <h1 className="text-black pb-8">Visual portfolio.</h1>
+              <p className="text-black lg:text-base md:text-sm text-xs">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
                 asperiores quae esse veniam aperiam, totam placeat tempore! Amet
                 praesentium deserunt possimus aperiam optio accusantium quod
@@ -40,6 +41,7 @@ export const Macbook = () => {
             </div>
           </div>
         </div>
+        <Projects />
       </div>
     </div>
   );

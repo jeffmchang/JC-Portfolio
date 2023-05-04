@@ -35,6 +35,9 @@
   h4 {
     @apply text-lg sm:text-xl md:text-2xl;
   }
+  h5 {
+    @apply text-base sm:text-lg md:text-xl;
+  }
 
   li {
     @apply cursor-pointer;
@@ -45,10 +48,18 @@
   }
 
   .container {
-    @apply mx-auto px-4 w-full h-screen;
+    @apply w-full h-screen mx-auto px-4;
   }
 
   .content {
-    @apply max-w-[1260px] w-full h-full mx-auto p-2 flex justify-center items-center;
+    @apply max-w-[1260px] w-full h-full mx-auto p-2;
+  }
+
+  .card {
+    @apply bg-[#002545] rounded-lg shadow-lg p-4 mx-auto w-[288px] h-[400px];
+  }
+
+  .blocks {
+    @apply bg-[#002545] rounded-lg shadow-xl w-[580px] h-[530px] border-gray-200 border;
   }
 }
