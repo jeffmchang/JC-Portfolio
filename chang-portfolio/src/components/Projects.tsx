@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import autoImg from "/./public/newAssets/autostack.png";
-import img from "/./public/newAssets/hookedcard.png";
+import img from "/./public/newAssets/hookedhome.png";
 import temp from "/./public/newAssets/temp.png";
+import hookedGif from "/./public/newAssets/hookedgif.gif";
+import autostack from "/./public/newAssets/autostack.gif";
+
 import { FaReact, FaPython } from "react-icons/fa";
 import {
   SiPostgresql,
@@ -13,18 +16,36 @@ import {
 import { TbBrandDjango } from "react-icons/tb";
 
 export const Projects = () => {
+  const [gif, setGif] = useState(img);
+  const [carGif, setCarGif] = useState(autoImg);
+
+  const handleSetSrc = (isGif: boolean) => {
+    setGif(isGif ? hookedGif : img);
+  };
+  const handlesetCarGif = (isGif: boolean) => {
+    setCarGif(isGif ? autostack : autoImg);
+  };
+
   return (
     <div className="w-full h-[100%] bg-white">
       <div className="max-w-[1260px] w-full mx-auto p-2">
         <div className="flex flex-wrap gap-7 justify-between">
           <div className="blocks shadow-2xl hover:scale-105 duration-100">
-            <div className="w-full">
+            <div
+              className="w-full"
+              onMouseOver={() => {
+                handleSetSrc(true);
+              }}
+              onMouseOut={() => {
+                handleSetSrc(false);
+              }}
+            >
               <div>
                 <Image
-                  src={img}
+                  src={gif}
                   width={580}
                   alt="hookedhome"
-                  className="rounded-t-md "
+                  className="rounded-t-md"
                 />
               </div>
               <div className="m-6 mx-10">
@@ -38,7 +59,7 @@ export const Projects = () => {
                     <SiJavascript size={27} />
                   </div>
                 </div>
-                <p className="max-w-[500px]  text-sm">
+                <p className="max-w-[500px] text-sm">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Fugiat natus magni minus, similique molestiae ipsum nisi,
                   recusandae quam doloribus cumque ab iusto minima. Lorem ipsum
@@ -49,10 +70,18 @@ export const Projects = () => {
             </div>
           </div>
           <div className="blocks shadow-2xl hover:scale-105 duration-100">
-            <div className="w-full">
+            <div
+              className="w-full"
+              onMouseOver={() => {
+                handlesetCarGif(true);
+              }}
+              onMouseOut={() => {
+                handlesetCarGif(false);
+              }}
+            >
               <div>
                 <Image
-                  src={autoImg}
+                  src={carGif}
                   width={580}
                   alt="hookedhome"
                   className="rounded-t-md"
@@ -69,7 +98,7 @@ export const Projects = () => {
                     <SiJavascript size={27} />
                   </div>
                 </div>
-                <p className="max-w-[500px]  text-sm">
+                <p className="max-w-[500px] text-sm">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Fugiat natus magni minus, similique molestiae ipsum nisi,
                   recusandae quam doloribus cumque ab iusto minima. Lorem ipsum
@@ -100,7 +129,7 @@ export const Projects = () => {
                     <SiJavascript size={27} />
                   </div>
                 </div>
-                <p className="max-w-[500px]  text-sm">
+                <p className="max-w-[500px] text-sm">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Fugiat natus magni minus, similique molestiae ipsum nisi,
                   recusandae quam doloribus cumque ab iusto minima. Lorem ipsum
@@ -131,7 +160,7 @@ export const Projects = () => {
                     <SiJavascript size={27} />
                   </div>
                 </div>
-                <p className="max-w-[500px]  text-sm">
+                <p className="max-w-[500px] text-sm">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Fugiat natus magni minus, similique molestiae ipsum nisi,
                   recusandae quam doloribus cumque ab iusto minima. Lorem ipsum
