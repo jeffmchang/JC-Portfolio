@@ -5,6 +5,7 @@ import Link from "next/link";
 import { About } from "@/components/About";
 import { Macbook } from "@/components/Macbook";
 import { ContactUs } from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -81,6 +82,7 @@ export default function Home() {
       <section id="contact">
         <ContactUs />
       </section>
+      <Footer />
     </div>
   );
 }

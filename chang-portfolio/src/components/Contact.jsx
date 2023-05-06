@@ -43,7 +43,7 @@ export const ContactUs = () => {
 
   return (
     <>
-      <div className="w-full h-[900px] py-[130px] shadow-inner">
+      <div className="w-full h-[760px] pt-[130px] shadow-inner">
         <div className="max-w-[650px] w-full h-[580px] mx-auto px-16 pt-16 rounded-md bg-black/30">
           <div className="max-w-[450px]">
             <h5 className="">Let us work together</h5>
