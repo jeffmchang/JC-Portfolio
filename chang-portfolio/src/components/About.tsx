@@ -60,7 +60,7 @@ export const About = () => {
                   />
                 </div>
               </div>
-              <div className="mt-[10%]">
+              <div className="mt-[5%]">
                 <div className="flex flex-wrap gap-3">
                   <div className="flex items-center justify-center card hover:scale-110 duration-100 shadow-xl">
                     <div>

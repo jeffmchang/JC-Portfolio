@@ -5,7 +5,7 @@ import { IoArrowDownCircleSharp } from "react-icons/io5";
 const Main = () => {
   return (
     <>
-      <div className="w-full h-screen text-center">
+      <div className="w-full h-screen text-center shadow-xl">
         <div className="max-w-[1260px] w-full h-full mx-auto p-2 flex justify-center items-center">
           <div>
             <p className="text-[#7ae2fc] text-base p-2 tracking-widest font-semibold uppercase">
@@ -15,7 +15,7 @@ const Main = () => {
               Hey there! I'm <span className="text-[#dd2a2a]">Jeff</span>
             </h1>
             <div className="flex justify-center items-center pt-3">
-              <h3>Ask me about&nbsp;</h3>
+              <h3 className="text-2xl md:text-3xl">Ask me about&nbsp;</h3>
               <TypingEffect />
             </div>
             <div className="max-w-[600px]">

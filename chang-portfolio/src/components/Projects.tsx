@@ -27,7 +27,7 @@ export const Projects = () => {
   };
 
   return (
-    <div className="w-full h-[100%] bg-white">
+    <div className="w-full h-[100%] bg-white pb-[130px]">
       <div className="max-w-[1260px] w-full mx-auto p-2">
         <div className="flex flex-wrap gap-7 justify-between">
           <div className="blocks shadow-2xl hover:scale-105 duration-100">
