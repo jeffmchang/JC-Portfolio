@@ -2,6 +2,7 @@ import React from "react";
 import { RiCopyrightLine } from "react-icons/ri";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillGitlab } from "react-icons/ai";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -11,9 +12,21 @@ const Footer = () => {
         &nbsp;
         <h5 className="text-sm">JC | Full-Stack Portfolio</h5>
         &nbsp; &nbsp;
-        <BsLinkedin size={20} />
+        <Link
+          target="_blank"
+          href="https://gitlab.com/jeffmchang"
+          rel="noopener noreferrer"
+        >
+          <BsLinkedin size={20} />
+        </Link>
         &nbsp; &nbsp;
-        <AiFillGitlab size={20} />
+        <Link
+          target="_blank"
+          href="https://gitlab.com/jeffmchang"
+          rel="noopener noreferrer"
+        >
+          <AiFillGitlab size={20} />
+        </Link>
       </div>
     </div>
   );

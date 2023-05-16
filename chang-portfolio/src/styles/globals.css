@@ -62,4 +62,48 @@
   .blocks {
     @apply bg-[#002545] rounded-lg shadow-xl w-[580px] h-[530px] border-gray-200 border;
   }
+  body.active-modal {
+    overflow-y: hidden;
+  }
+
+  .btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+  }
+
+  .modal,
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.41);
+  }
+  .modal-content {
+    position: absolute;
+    top: 41.75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 2px 2px;
+    border-radius: 3px;
+    max-width: 620px;
+    min-width: 500px;
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+  }
 }

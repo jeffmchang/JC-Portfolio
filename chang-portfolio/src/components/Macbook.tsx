@@ -22,21 +22,16 @@ export const Macbook = () => {
               </h5>
               <h1 className="text-black pb-8">Visual portfolio.</h1>
               <p className="text-black lg:text-base md:text-sm text-xs">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-                asperiores quae esse veniam aperiam, totam placeat tempore! Amet
-                praesentium deserunt possimus aperiam optio accusantium quod
-                deleniti repellendus eum, quam labore. Nesciunt, numquam
-                quisquam. Amet iusto cum cumque rerum doloribus suscipit
-                sapiente perferendis necessitatibus quia iste dolorum, dolores
-                iure eveniet labore odit, impedit recusandae ab earum modi
-                magnam similique. Iusto, magni? Rerum laboriosam pariatur
-                repellat voluptatem, quas ab quae consectetur ipsam, doloribus
-                itaque tempore, modi commodi. Odit, ipsum. Unde totam
-                consequuntur fuga delectus sed? Iste incidunt earum facere
-                pariatur sequi natus. Dolor quo nam culpa, ut voluptatibus quia.
-                Nesciunt quam officia rem laboriosam? Maxime pariatur fuga
-                repudiandae. Harum sed explicabo nostrum fugiat unde excepturi
-                iusto. Doloribus odit nisi optio et distinctio?
+                In this segment, you will discover a selection of projects that
+                I&apos;ve successfully completed, along with a project that is
+                presently under development. This curated visual showcase is
+                intended to provide you with a firsthand glimpse into the work I
+                deliver. My specialty lies in crafting aesthetically pleasing
+                and user-friendly interfaces, a skill I take great pride in.
+                Adding to the interactive nature of this section, I invite you
+                to hover over each project image. This will trigger a live demo
+                of the respective application, allowing you to experience its
+                functionality and user-friendly interface firsthand.
               </p>
             </div>
           </div>

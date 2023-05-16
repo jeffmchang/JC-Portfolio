@@ -12,6 +12,7 @@ import { SiBootstrap } from "react-icons/si";
 import { DiMongodb, DiGit } from "react-icons/di";
 import { FaCss3 } from "react-icons/fa";
 import { TfiHtml5 } from "react-icons/tfi";
+import Link from "next/link";
 
 export const About = () => {
   return (
@@ -21,33 +22,50 @@ export const About = () => {
           <div className="pt-[10%]">
             <div>
               <div className="flex">
-                <div className="pr-5">
+                <div className="pr-5 max-w-[780px]">
                   <h5 className="justify-center text-black py-2">
                     Adapting and improving for continuous growth
                   </h5>
                   <h1 className="text-black pb-8">Dynamic learner.</h1>
                   <p className="text-black lg:text-base md:text-sm text-xs">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Alias asperiores quae esse veniam aperiam, totam placeat
-                    tempore! Amet praesentium deserunt possimus aperiam optio
-                    accusantium quod deleniti repellendus eum, quam labore.
-                    Nesciunt, numquam quisquam. Amet iusto cum cumque rerum
-                    doloribus suscipit sapiente perferendis necessitatibus quia
-                    iste dolorum, dolores iure eveniet labore odit, impedit
-                    recusandae ab earum modi magnam similique. Iusto, magni?
-                    Rerum laboriosam pariatur repellat voluptatem, quas ab quae
-                    consectetur ipsam, doloribus itaque tempore, modi commodi.
-                    Odit, ipsum. Unde totam consequuntur fuga delectus sed? Iste
-                    incidunt earum facere pariatur sequi natus. Dolor quo nam
-                    culpa, ut voluptatibus quia. Nesciunt quam officia rem
-                    laboriosam? Maxime pariatur fuga repudiandae. Harum sed
-                    explicabo nostrum fugiat unde excepturi iusto. Doloribus
-                    odit nisi optio et distinctio?
+                    A dedicated software engineer with a passion for technology,
+                    exemplified not only in my professional pursuits but also in
+                    personal interests such as drone technology. I approach life
+                    with the same methodical precision that I apply to debugging
+                    code, breaking down complex issues into manageable tasks. My
+                    commitment to continuous learning is evident in my proactive
+                    approach to staying updated with industry trends, which has
+                    transformed me to a proficient full-stack software engineer.
+                    The intensive training and fast-paced environment of the
+                    bootcamp honed my adaptability and resilience, equipping me
+                    with the skills to quickly grasp and apply new concepts. My
+                    diverse project experience, both within the bootcamp and
+                    beyond, has allowed me to demonstrate my versatility.
+                    Serving in roles from team leader to cooperative teammate,
+                    I&apos;ve developed an ability to effectively meet project
+                    deadlines and foster a positive team dynamic. Thank you for
+                    taking the time to explore my portfolio. It showcases my
+                    dedication to my craft, my commitment to continuous
+                    learning, and my readiness to make significant contributions
+                    to impactful projects. I look forward to the opportunity of
+                    connecting with you soon!
                   </p>
                   <h5 className="text-black pt-3 font-bold">Check me out!</h5>
                   <div className="flex justify-start pt-2 gap-3">
-                    <BsLinkedin size={35} color="black" />
-                    <AiFillGitlab size={35} color="black" />
+                    <Link
+                      target="_blank"
+                      href="https://www.linkedin.com/in/jeffmchang23/"
+                      rel="noopener noreferrer"
+                    >
+                      <BsLinkedin size={35} color="black" />
+                    </Link>
+                    <Link
+                      target="_blank"
+                      href="https://gitlab.com/jeffmchang"
+                      rel="noopener noreferrer"
+                    >
+                      <AiFillGitlab size={35} color="black" />
+                    </Link>
                   </div>
                 </div>
                 <div>
@@ -56,7 +74,7 @@ export const About = () => {
                     alt="/"
                     height={3000}
                     width={3000}
-                    className="hidden lg:block"
+                    className="hidden lg:block mt-12"
                   />
                 </div>
               </div>
@@ -73,23 +91,24 @@ export const About = () => {
                       </div>
                       <h4 className="text-center py-3">Front-End Dev</h4>
                       <p className="text-white text-xs text-center mx-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati maxime, ducimus tempora illum dicta quidem
-                        est, perspiciatis iusto, quas fuga nisi.
+                        I have a comprehensive skill set that includes the use
+                        of React, Redux, Tailwind, among other libraries. I can
+                        create highly interactive and state-controlled user
+                        interfaces.
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center justify-center card hover:scale-110 duration-100 shadow-xl">
                     <div>
-                      <div className="flex justify-center">
+                      <div className="flex justify-center mt-3">
                         <SiPostgresql size={40} color="#259490" />
                         <DiMongodb size={40} color="#259490" />
                       </div>
                       <h4 className="text-center py-3">Back-End Dev</h4>
                       <p className="text-white text-xs text-center mx-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati maxime, ducimus tempora illum dicta quidem
-                        est, perspiciatis iusto, quas fuga nisi.
+                        I am proficient in backend technologies like PostgreSQL
+                        and MongoDB, among other tools. With these skills, I am
+                        capable of designing robust and efficient databases.
                       </p>
                     </div>
                   </div>
@@ -119,9 +138,10 @@ export const About = () => {
                       </div>
                       <h4 className="py-3 text-center">Versatile Stack</h4>
                       <p className="text-white text-xs text-center mx-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati maxime, ducimus tempora illum dicta quidem
-                        est, perspiciatis iusto, quas fuga nisi.
+                        Boasting an extensive skill set, I am proficient in
+                        languages including Python3, HTML5, CSS, and JavaScript,
+                        as well as applications like Docker, Insomnia, and
+                        FastAPI.
                       </p>
                     </div>
                   </div>
@@ -138,9 +158,10 @@ export const About = () => {
                       </div>
                       <h4 className="text-center py-3">Tech Skills</h4>
                       <p className="text-white text-xs text-center mx-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati maxime, ducimus tempora illum dicta quidem
-                        est, perspiciatis iusto, quas fuga nisi.
+                        Git for version control, Next.js for server-rendered
+                        React applications, and Django for creating secure
+                        backend solutions, highlighting my versatility as a
+                        software engineer.
                       </p>
                     </div>
                   </div>

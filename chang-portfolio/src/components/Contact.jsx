@@ -50,7 +50,7 @@ export const ContactUs = () => {
             <h1 className="text-white mb-4">Contact me.</h1>
             <p className="mb-6">
               Have a question or want to work together? Leave your details and
-              I'll get back to you as soon as possible.
+              I&apos;ll get back to you as soon as possible.
             </p>
           </div>
           <div>
