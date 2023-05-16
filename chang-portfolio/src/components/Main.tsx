@@ -9,10 +9,10 @@ const Main = () => {
         <div className="max-w-[1260px] w-full h-full mx-auto p-2 flex justify-center items-center">
           <div>
             <p className="text-[#7ae2fc] text-base p-2 tracking-widest font-semibold uppercase">
-              LET&apos;S EXPLORE NEW HORIZONS TOGETHER.
+              LET US EXPLORE NEW HORIZONS TOGETHER.
             </p>
             <h1>
-              Hey there! I&apos;m <span className="text-[#dd2a2a]">Jeff</span>
+              Hey there! I am <span className="text-[#dd2a2a]">Jeff</span>
             </h1>
             <div className="flex justify-center items-center pt-3">
               <h3 className="text-2xl md:text-3xl">Ask me about&nbsp;</h3>
