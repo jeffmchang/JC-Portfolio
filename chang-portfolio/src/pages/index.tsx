@@ -30,7 +30,7 @@ export default function Home() {
       <Head>
         <title>JC | Full-Stack Developer</title>
         <meta name="description" content="Home page" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/coding.ico" />
       </Head>
       <div className={"fixed w-full h-20 z-[100] bg-[#002545] shadow-2xl"}>
         <div className="flex justify-between items-center mx-auto max-w-[1260px] h-full">
