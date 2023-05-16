@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import img from "/./public/newAssets/prof.png";
+// import img from "/./public/newAssets/prof.png";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillGitlab } from "react-icons/ai";
 import { GrReactjs } from "react-icons/gr";
@@ -69,8 +69,8 @@ export const About = () => {
                   </div>
                 </div>
                 <div>
-                  <Image
-                    src={img}
+                  <img
+                    src="newAssets/prof.png"
                     alt="/"
                     height={500}
                     width={500}
