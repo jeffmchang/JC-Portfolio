@@ -49,8 +49,8 @@ export const ContactUs = () => {
             <h5 className="">Let us work together</h5>
             <h1 className="text-white mb-4">Contact me.</h1>
             <p className="mb-6">
-              Have a question or want to work together? Leave your details and
-              I&apos;ll get back to you as soon as possible.
+             {" Have a question or want to work together? Leave your details and
+              I&lsquo;ll get back to you as soon as possible."}
             </p>
           </div>
           <div>
