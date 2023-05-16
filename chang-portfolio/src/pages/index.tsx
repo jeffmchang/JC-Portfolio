@@ -38,7 +38,7 @@ export default function Home() {
           <Link href="#main" onClick={handleScroll}>
             <div className="flex items-center">
               <Image
-                src="/../public/newAssets/logo.png"
+                src={"/../public/newAssets/logo.png"}
                 alt="/"
                 width={30}
                 height={30}
