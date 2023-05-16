@@ -10,7 +10,6 @@ export default function TypingEffect() {
           autoStart: true,
           loop: true,
           wrapperClassName: "text-[#dd2a2a] text-3xl font-bold",
-          pauseFor: 800,
           deleteSpeed: 80,
           delay: 70,
         }}
