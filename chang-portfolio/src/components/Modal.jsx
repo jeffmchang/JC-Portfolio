@@ -10,8 +10,8 @@ const Modal = ({ changeModal }) => {
       <div className="modal">
         <div className="overlay"></div>
         <div className="modal-content mt-28">
-          <Image
-            src={"/../public/newAssets/resume.png"}
+          <img
+            src="newAssets/resume.png"
             alt="Resume"
             width={800}
             height={800}

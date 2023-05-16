@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Main from "@/components/Main";
-import Image from "next/image";
 import Link from "next/link";
 import { About } from "@/components/About";
 import { Macbook } from "@/components/Macbook";
@@ -37,8 +36,8 @@ export default function Home() {
         <div className="flex justify-between items-center mx-auto max-w-[1260px] h-full">
           <Link href="#main" onClick={handleScroll}>
             <div className="flex items-center">
-              <Image
-                src={"/../public/newAssets/logo.png"}
+              <img
+                src="newAssets/logo.png"
                 alt="/"
                 width={30}
                 height={30}
